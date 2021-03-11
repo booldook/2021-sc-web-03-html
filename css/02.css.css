@@ -3,6 +3,8 @@
 세로: top, middle(center), bottom 
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
 
 .gradient {
 	height: 400px;
@@ -80,6 +82,7 @@
 }
 
 .shadow-wrap .shadow-text {
+	font-family: 'Noto Sans KR', sans-serif;
 	font-size: 72px;
 	color: white;
 	font-weight: bold;
