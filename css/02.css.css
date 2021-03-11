@@ -67,3 +67,21 @@
 .bg2 {
 	background-image: url(../img/bp2.jpg);
 }
+
+.shadow-wrap {
+	padding: 100px;
+}
+
+.shadow-wrap .shadow {
+	width: 200px;
+	height: 200px;
+	background-color: coral;
+	box-shadow: 15px 15px 20px rgba(20, 0, 0, .6);
+}
+
+.shadow-wrap .shadow-text {
+	font-size: 72px;
+	color: white;
+	font-weight: bold;
+	text-shadow: 8px 8px 16px rgba(20, 0, 0, .8);
+}
