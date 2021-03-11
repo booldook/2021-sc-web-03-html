@@ -32,7 +32,7 @@
 		}
 
 		body {
-			padding-bottom: 200px;
+			padding-bottom: 500px;
 		}
 
 		h2.title {
@@ -148,6 +148,78 @@
 				<li>Milk Coffee</li>
 				<li>Americano Coffee</li>
 			</ul>
+		</div>
+		<div>
+			<h2 class="title">Semantic Tag</h2>
+			<header>
+				헤더영역
+			</header>
+			<section>
+				<article>
+					내용1
+				</article>
+				<article>
+					내용2
+				</article>
+			</section>
+			<nav>네비게이션</nav>
+			<footer>
+				하단내용
+			</footer>
+		</div>
+		<div>
+			<h2 class="title">Form</h2>
+			<form action="#">
+				<div>
+					<input type="text" name="userid" placeholder="아이디">
+				</div>
+				<div>
+					<input type="password" name="userpw" placeholder="패스워드">
+				</div>
+				<div>
+					<input type="number" name="userage" placeholder="나이" min="0" max="150" step="1">
+				</div>
+				<div>
+					<div>
+						<label><input type="radio" name="gender" value="M"> 남자</label>
+						<label><input type="radio" name="gender" value="F"> 여자</label>
+						<label><input type="radio" name="gender" value="A"> 외계인</label>
+					</div>
+					<div>
+						<input type="radio" name="age" id="age30" value="30"> <label for="age30">0 ~ 30세</label>
+						<input type="radio" name="age" id="age60" value="60"> <label for="age60">31 ~ 60세</label>
+						<input type="radio" name="age" id="age90" value="90"> <label for="age90">61 ~ 90세</label>
+						<input type="radio" name="age" id="ageOver" value="over"> <label for="ageOver">90세 ~</label>
+					</div>
+					<div>
+						<input type="checkbox" name="favor" id="dog" value="dog"> <label for="dog">강아지 키우기</label>
+						<input type="checkbox" name="favor" id="cat" value="cat"> <label for="cat">고양이 키우기</label>
+						<input type="checkbox" name="favor" id="swimming" value="swimming"> <label for="swimming">수영</label>
+						<input type="checkbox" name="favor" id="drive" value="drive"> <label for="drive">운전</label>
+						<input type="checkbox" name="favor" id="movie" value="movie"> <label for="movie">영화감상</label>
+					</div>
+					<div>
+						<select name="tel1" id="tel1">
+							<option value="">선택</option>
+							<option value="010">010</option>
+							<option value="011">011</option>
+							<option value="016">016</option>
+							<option value="017">017</option>
+							<option value="018">018</option>
+							<option value="019">019</option>
+						</select>
+						-
+						<input type="text" name="tel2" maxlength="4" style="width: 60px;">
+						-
+						<input type="text" name="tel3" maxlength="4" style="width: 60px;">
+					</div>
+					<div>
+						<button type="submit">회원가입</button>
+						<button type="reset">다시작성</button>
+						<button type="button">그냥 버튼</button>
+					</div>
+				</div>
+			</form>
 		</div>
 	</div>
 </body>
