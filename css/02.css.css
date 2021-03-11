@@ -3,13 +3,32 @@
 세로: top, middle(center), bottom 
 */
 
-body {
-	padding-bottom: 500px;
+
+.gradient {
+	height: 400px;
+	background-image: radial-gradient(circle at 10% 30%, red 3%, yellow 40%, rgba(0,0,0,0));
 }
 
 .body {
 	padding-bottom: 500px;
-	background-image: url(../img/bp2.jpg), url(../img/bp1.jpg);
+	background-color: black;
+	background-image: repeating-linear-gradient(180deg, #f00 7%, #0f3 10%, #f00 12%);
+}
+
+.body {
+	padding-bottom: 500px;
+	background-color: black;
+	background-image: linear-gradient(180deg, #f00, rgba(255, 0, 0, 0));
+}
+
+.body {
+	padding-bottom: 500px;
+	background-image: linear-gradient(180deg, #f00, #f90,#ff0, #0f0, #00f, #03f, #f09);
+}
+
+.body {
+	padding-bottom: 500px;
+	background-image: url("../img/bp2.jpg"), url("../img/bp1.jpg");
 	background-repeat: no-repeat, repeat-y;
 	background-position: center, center;
 	background-size: auto, auto;
@@ -17,22 +36,22 @@ body {
 
 .body {
 	background-color: aquamarine;
-	background-image: url(../img/bp2.jpg);
+	background-image: url("../img/bp2.jpg");
 	background-repeat: no-repeat;	/* [repeat], no-repeat */
 	background-position: center;	/* [left]/center/right | [top]/center/bottom */
 	background-size: cover;	/* [auto], 100% auto, auto 100%, cover, 300px 200px */
 }
 
 .wrapper {
-	max-width: 600px;
+	max-width: 1200px;
 	margin: 0 auto;
 	/* border: 10px solid black; */
 }
 
 .content {
-	padding: 20px;
+	padding: 30px;
 	line-height: 1.5;
-	font-size: 26px;
+	font-size: 18px;
 	background-color: #eee;
 }
 
