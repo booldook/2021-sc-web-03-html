@@ -1,0 +1,28 @@
+/*  
+가로: left, right, center
+세로: top, middle(center), bottom 
+*/
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color: aquamarine;
+	background-image: url(../img/bp2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.wrapper {
+	max-width: 1100px;
+	margin: 0 auto;
+	border: 10px solid black;
+}
+
+.box {
+	width: 300px;
+	height: 300px;
+	border: 10px solid red;
+	background-color: #7c0
+}
