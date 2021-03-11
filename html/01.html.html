@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,59 +8,148 @@
 	<title>HTML Tag를 배워봅시다.</title>
 	<style>
 		/* 초기화(reset/normalize) */
-		html, body, h1, h2, h3, h4, h5, h6, div, p, ol, ul, li, blockquote {padding: 0; margin: 0;}
-		address {font-style: normal;}
-		abbr {text-decoration: none;}
-		
+		html,
+		body,
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6,
+		div,
+		p,
+		ol,
+		ul,
+		li,
+		blockquote {
+			padding: 0;
+			margin: 0;
+		}
 
-		blockquote {padding-left: 20px; border-left: 3px solid #ccc;}
-		abbr {text-decoration: overline;}
+		ul,
+		ol {
+			list-style: none;
+		}
 
-		.wrapper {width: 1000px; margin: 0 auto;}
-		.red {color: red;}
-		.underline {text-decoration: underline;}
+		body {
+			padding-bottom: 200px;
+		}
+
+		h2.title {
+			margin: 40px 0 20px 0;
+			border-top: 1px solid #ccc;
+			padding-top: 16px;
+		}
+
+		address {
+			font-style: normal;
+		}
+
+		abbr {
+			text-decoration: none;
+		}
+
+
+		blockquote {
+			padding-left: 20px;
+			border-left: 3px solid #ccc;
+		}
+
+		abbr {
+			text-decoration: overline;
+		}
+
+		.wrapper {
+			width: 1000px;
+			margin: 0 auto;
+		}
+
+		.red {
+			color: red;
+		}
+
+		.underline {
+			text-decoration: underline;
+		}
 	</style>
 </head>
+
 <body>
 	<div class="wrapper">
+		<h2 class="title">헤드라인</h2>
 		<h1>H1 tag 입니다.</h1>
 		<h2>H2 tag 입니다.</h2>
 		<h3>H3 tag 입니다.</h3>
 		<h4>H4 tag 입니다.</h4>
 		<h5>H5 tag 입니다.</h5>
 		<h6>H6 tag 입니다.</h6>
-		<p>여기는 본문입니다. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, eius quas dolorum temporibus ex quo fugiat quae necessitatibus dolorem vitae earum distinctio alias consequuntur! Totam quod voluptatem magnam quidem dolorum.</p>
+		<h2 class="title">본문표현</h2>
+		<p>여기는 본문입니다. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, eius quas dolorum temporibus ex quo
+			fugiat quae necessitatibus dolorem vitae earum distinctio alias consequuntur! Totam quod voluptatem magnam quidem
+			dolorum.</p>
 		<p>
-			문장이 있는데 
-			<span class="red underline">빨강색</span>을 표현하고 싶어요. 
+			문장이 있는데
+			<span class="red underline">빨강색</span>을 표현하고 싶어요.
 			<span style="color: blue; text-decoration: underline;">파란색</span>을 표현하고 싶어요.
-			<b>저는 굵은글씨 입니다.</b> 
-			<strong>저는 굵은글씨 입니다.</strong> 
-			<i>저는 이탤릭체 입니다.</i> 
-			<em>저는 이탤릭체 입니다.</em> 
-			<del>저는 삭제표시 입니다.</del> 
-			<ins>저는 밑줄표시 입니다.</ins> 
-			지금 문장에서 <sub>저는 아래첨자</sub>입니다. 
-			지금 문장에서 <sup>저는 윗첨자</sup>입니다. 
+			<b>저는 굵은글씨 입니다.</b>
+			<strong>저는 굵은글씨 입니다.</strong>
+			<i>저는 이탤릭체 입니다.</i>
+			<em>저는 이탤릭체 입니다.</em>
+			<del>저는 삭제표시 입니다.</del>
+			<ins>저는 밑줄표시 입니다.</ins>
+			지금 문장에서 <sub>저는 아래첨자</sub>입니다.
+			지금 문장에서 <sup>저는 윗첨자</sup>입니다.
 		</p>
-		<p>
-			<h1>인용문</h1>
+		<div>
+			<h2 class="title">인용문</h2>
 			<blockquote cite="//naver.com">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero excepturi quod laudantium illo voluptatem vero praesentium ipsum, harum culpa nostrum veritatis autem repellat fugiat dolore inventore illum. Reiciendis, ipsum dolorem!
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero excepturi quod laudantium illo voluptatem vero
+				praesentium ipsum, harum culpa nostrum veritatis autem repellat fugiat dolore inventore illum. Reiciendis, ipsum
+				dolorem!
 				<div>출처: <em>네이버</em></div>
 			</blockquote>
-			<h1>약어</h1>
+			<h2 class="title">약어</h2>
 			<abbr title="Hyper Text Markup Language">HTML</abbr>
-			<h1>주소</h1>
+			<h2 class="title">주소</h2>
 			<address>
 				서울시 마포구 서강로 3
 			</address>
-			<h1>블랙핑크</h1>
+			<h2 class="title">블랙핑크</h2>
 			<div>
 				<img src="../img/bp1.jpg" alt="블랙핑크">
-				<cite></cite>
+				<cite>출처: 구글</cite>
 			</div>
-		</p>
+		</div>
+		<div>
+			<h2 class="title">링크</h2>
+			<p>
+				<a href="//naver.com">네이버</a>로 이동합니다.
+			</p>
+			<p>
+				<a href="//naver.com" target="_blank">네이버</a>로 이동합니다.
+			</p>
+			<p>
+				<a href="//google.com" target="_blank">
+					<img src="../img/bp2.jpg" alt="블랙핑크">
+				</a>
+			</p>
+			<p>
+				float를 알고 싶으면 <a href="./03.float.html">여기</a>를 클릭하세요.
+			</p>
+			<p>
+				email: <a href="mailto:booldook@gmail.com">booldook@gmail.com</a>
+				tel: <a href="tel:010-8332-8040">010-8332-8040</a>
+			</p>
+		</div>
+		<div>
+			<h2 class="title">UL</h2>
+			<ul>
+				<li>Coffee</li>
+				<li>Milk Coffee</li>
+				<li>Americano Coffee</li>
+			</ul>
+		</div>
 	</div>
 </body>
+
 </html>
