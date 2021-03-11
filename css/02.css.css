@@ -3,26 +3,48 @@
 세로: top, middle(center), bottom 
 */
 
-html, body {
-	height: 100%;
+body {
+	padding-bottom: 500px;
 }
 
-body {
+.body {
+	padding-bottom: 500px;
+	background-image: url(../img/bp2.jpg), url(../img/bp1.jpg);
+	background-repeat: no-repeat, repeat-y;
+	background-position: center, center;
+	background-size: auto, auto;
+}
+
+.body {
 	background-color: aquamarine;
 	background-image: url(../img/bp2.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
+	background-repeat: no-repeat;	/* [repeat], no-repeat */
+	background-position: center;	/* [left]/center/right | [top]/center/bottom */
+	background-size: cover;	/* [auto], 100% auto, auto 100%, cover, 300px 200px */
 }
 
 .wrapper {
-	max-width: 1100px;
+	max-width: 600px;
 	margin: 0 auto;
-	border: 10px solid black;
+	/* border: 10px solid black; */
 }
 
-.box {
-	width: 300px;
+.content {
+	padding: 20px;
+	line-height: 1.5;
+	font-size: 26px;
+	background-color: #eee;
+}
+
+.bg {
 	height: 300px;
-	border: 10px solid red;
-	background-color: #7c0
+	background-image: url(../img/bp1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed; /* scroll, fixed */
+}
+
+.bg2 {
+	background-image: url(../img/bp2.jpg);
 }
