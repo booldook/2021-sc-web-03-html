@@ -8,9 +8,14 @@
 	<style>
 		/* 초기화(reset/normalize) */
 		html, body, h1, h2, h3, h4, h5, h6, div, p, ol, ul, li, blockquote {padding: 0; margin: 0;}
+		address {font-style: normal;}
+		abbr {text-decoration: none;}
 		
-		.wrapper {width: 1000px; margin: 0 auto;}
+
 		blockquote {padding-left: 20px; border-left: 3px solid #ccc;}
+		abbr {text-decoration: overline;}
+
+		.wrapper {width: 1000px; margin: 0 auto;}
 		.red {color: red;}
 		.underline {text-decoration: underline;}
 	</style>
@@ -41,7 +46,19 @@
 			<h1>인용문</h1>
 			<blockquote cite="//naver.com">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero excepturi quod laudantium illo voluptatem vero praesentium ipsum, harum culpa nostrum veritatis autem repellat fugiat dolore inventore illum. Reiciendis, ipsum dolorem!
+				<div>출처: <em>네이버</em></div>
 			</blockquote>
+			<h1>약어</h1>
+			<abbr title="Hyper Text Markup Language">HTML</abbr>
+			<h1>주소</h1>
+			<address>
+				서울시 마포구 서강로 3
+			</address>
+			<h1>블랙핑크</h1>
+			<div>
+				<img src="../img/bp1.jpg" alt="블랙핑크">
+				<cite></cite>
+			</div>
 		</p>
 	</div>
 </body>
