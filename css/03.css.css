@@ -25,3 +25,70 @@ h1.title {
 	font-family: 'BBTreeGB';
 	/* font-weight: 800; */		/* normal bold bolder lighter */
 }
+
+.box {
+	/* border-width: 5px;
+	border-style: solid;
+	border-color: red; */
+	padding: 16px;
+	margin: 16px 0;
+	/* border: 5px solid red; */
+	/* border: 5px dotted red; */
+	/* border: 5px dashed red; */
+	/* border: 5px double red; */
+	/* border: 10px groove red; */
+	/* border: 10px ridge red; */
+	/* border: 10px inset red; */
+	/* border: 50px outset red; */
+	/* border: 50px none red; */
+	/* border: 50px hidden red; */
+}
+
+.box1 {
+	border: 5px solid red;
+}
+
+.box2 {
+	border-top: 5px solid #063ccf;
+	border-right: 20px solid #07d18e;
+	border-bottom: 50px solid #3dc51c;
+	border-left: 100px solid #ff0095;
+}
+
+.box3 {
+	margin: 16px auto;
+	width: 0;
+	height: 0;
+	padding: 0;
+  border-top: 60px solid transparent;
+  border-right: 60px solid red;
+}
+
+.box4 {
+	margin: 16px auto;
+	width: 0;
+	height: 0;
+	padding: 0;
+  border-top: 60px solid transparent;
+  border-left: 60px solid red;
+}
+
+.box5 {
+	margin: 16px auto;
+	width: 0;
+	height: 0;
+	padding: 0;
+  border-top: 60px solid red;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+}
+
+.box6 {
+	margin: 16px auto;
+	width: 0;
+	height: 0;
+	padding: 0;
+  border-left: 30px solid red;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+}
