@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
+/* font-family: 'Noto Sans KR', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+/* font-family: 'Nanum Myeongjo', serif; */
+
+@import './fonts/uto-gothic.css';
+/* font-family: 'BBTreeGR'; font-family: 'BBTreeGB'; font-family: 'BBTreeGL'; */
+
+
+h1.title {
+	font-size: 5.7vw;
+	text-align: center;
+	padding: 16px;
+	border-bottom: 1px solid #777;
+	font-family: 'BBTreeGB';
+	/* font-weight: 800; */		/* normal bold bolder lighter */
+}
+
+html {
+	/* border: 5px solid green; */
+}
+
+body {
+	/* border: 5px solid blue; */
+}
+
+.wrapper {
+	/* max-width: 1000px; */
+	/* overflow(가로, 세로), overflow-y, overflow-x */
+	overflow: visible;	/* [visible] hidden, auto, scroll */
+	margin: 0 auto;
+	padding: 10vh 0;
+	font-family: 'Noto Sans KR', sans-serif;
+	color: #121212;	
+	border: 5px solid red;
+	height: 100vh;	/* Viewport Height */
+}
+
+
