@@ -1,3 +1,12 @@
+/* 
+Sans-serif: 고딕
+Serif: 명조
+Monospace: 고정폭 글꼴
+hand writing: 필기체
+display: 제목체
+*/
+
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
 /* font-family: 'Noto Sans KR', sans-serif; */
 
@@ -77,5 +86,27 @@ h1.title {
 	letter-spacing: -1px;
 	word-spacing: 10px;
 	white-space: normal; /* [wrap], nowrap, pre, pre-wrap, pre-line, break-spaces */
-	/* word-break:; */
 }
+
+.break {
+	word-break: keep-all;
+}
+
+.box a {
+	opacity: 0.9;
+}
+
+.box a:hover {
+	opacity: 1;
+	text-decoration: underline;
+}
+
+.menu-wrap {
+	margin: 30px 0;
+	list-style: circle;
+	margin-left: 30px;
+}
+
+
+
+
