@@ -8,7 +8,7 @@
 /* font-family: 'BBTreeGR'; font-family: 'BBTreeGB'; font-family: 'BBTreeGL'; */
 
 .wrapper {
-	max-width: 1600px;
+	max-width: 800px;
 	margin: 0 auto;
 	padding: 50px 0;
 	font-family: 'BBTreeGR', sans-serif;
@@ -41,5 +41,41 @@ h1.title {
 }
 
 .icon-book {
+	width: 100%;
+}
+
+.icon-book2 {
 	max-width: 100%;
+}
+
+.icon-book3 {
+	width: 100%;
+	max-width: 200px;
+}
+
+.icon {
+	width: 50px;
+	vertical-align: middle; /* [baseline] top middle bottom */
+}
+
+.icon-float {
+	width: 100%;
+	max-width: 200px;
+	margin: 20px;
+	float: left;
+}
+
+.text-deco {
+	/* text-decoration: underline; */
+	/* text-decoration: overline; */
+	text-decoration: line-through; /* [none] underline, overline, line-through  */
+}
+
+.case {
+	text-transform: capitalize; /* [none], uppercase, lowercase, capitalize  */
+	text-indent: 20px;
+	letter-spacing: -1px;
+	word-spacing: 10px;
+	white-space: normal; /* [wrap], nowrap, pre, pre-wrap, pre-line, break-spaces */
+	/* word-break:; */
 }
