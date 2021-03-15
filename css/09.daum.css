@@ -11,9 +11,18 @@ html, body {font-family: 'AppleSDGothicNeo-Regular', 'Malgun Gothic', '맑은 �
 		.top-wrapper .close-3days {float: right; padding: 6px 0;}
 	.search-wrapper {margin: 20px auto;}
 		.logo-wrap {float: left; width: 126px; margin-right: 24px;}
-		.search-wrap {float: left; border: 1px solid #478dff; width: 50%; min-width: 400px;}
-			.search-wrap input {width: calc(100% - 114px); font-size: 18px; padding-left: 12px; outline: none;} 
-			.search-wrap i {color: #478dff; font-size: 18px; padding: 16px;}
+		.search-wrap {float: left; width: 50%; min-width: 400px;}
+			.search-wrap form {border: 1px solid #478dff;}
+				.search-wrap input {width: calc(100% - 114px); font-size: 18px; padding-left: 12px; outline: none;} 
+				.search-wrap form i {color: #478dff; font-size: 18px; padding: 16px;}
+			.search-wrap .favor-wrap {font-size: 13px; color: #555; padding: 8px 0;}
+				.search-wrap .favor-wrap .list-wrap {float: left;}
+				.search-wrap .favor-wrap .list-wrap li {display: inline-block; margin: 0 4px; letter-spacing: -2px;}
+					.search-wrap .favor-wrap .list-wrap li a:hover {text-decoration: underline;}
+				.search-wrap .favor-wrap .btn-wrap {float: right;}
+					.search-wrap .favor-wrap .btn-wrap i {border: 1px solid #ccc; color: #ccc; float: left;}
+					.search-wrap .favor-wrap .btn-wrap i.bt-prev {padding: 1px 5px 1px 4px;}
+					.search-wrap .favor-wrap .btn-wrap i.bt-next {padding: 1px 3.5px 1px 4px; margin-left: -1px;}
 		.banner-wrap {float: right; width: 225px;}
 
 
