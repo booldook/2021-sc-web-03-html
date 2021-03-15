@@ -9,9 +9,9 @@ html, body {font-family: 'AppleSDGothicNeo-Regular', 'Malgun Gothic', '맑은 �
 			.top-wrapper .start-page i {font-size: 10px;}
 			.top-wrapper .start-page a:hover {color: #478dff; text-decoration: underline;}
 		.top-wrapper .close-3days {float: right; padding: 6px 0;}
-	.search-wrapper {}
-		.logo-wrap {float: left;}
-		.search-wrap {float: left;}
+	.search-wrapper {margin: 20px auto;}
+		.logo-wrap {float: left; width: 126px; margin-right: 24px;}
+		.search-wrap {float: left; padding: 12px 0; border: 1px solid #478dff;}
 		.banner-wrap {float: right;}
 
 
