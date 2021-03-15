@@ -12,6 +12,6 @@ html, body {font-family: 'AppleSDGothicNeo-Regular', 'Malgun Gothic', '맑은 �
 	.search-wrapper {margin: 20px auto;}
 		.logo-wrap {float: left; width: 126px; margin-right: 24px;}
 		.search-wrap {float: left; padding: 12px 0; border: 1px solid #478dff;}
-		.banner-wrap {float: right;}
+		.banner-wrap {float: right; width: 225px;}
 
 
