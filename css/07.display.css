@@ -28,4 +28,3 @@ header li.navi {display: inline-block; padding: 16px;}
 header h1.logo:hover {background-color: #ccc; color: #131313;}
 header li.navi:hover {background-color: #ccc; color: #131313;}
 
-.clearfix {clear: both;}
