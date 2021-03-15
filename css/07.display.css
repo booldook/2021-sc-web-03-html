@@ -10,8 +10,12 @@ img, input, select, button ... -> inline-block
 3. inline       : 크기 x, 마진(상하x, 좌우ㅇ), 패딩 ㅇ
 */
 
-.wrapper {max-width: 1000px; margin: 0 auto; border: 5px solid blue;}
+.wrapper {max-width: 1000px; margin: 0 auto; border: 5px solid #b8b8b8;}
 .box {border: 1px solid red;}
 .box1 {display: block; height: 100px; padding: 20px;}
 .box2 {display: inline; width: 200px; height: 100px; padding: 50px;}
 .box3 {display: inline-block; width: 200px; height: 100px; margin: 20px;}
+
+header h1.logo {border: 5px solid darkolivegreen; display: inline-block;}
+header ul.navi-wrapper {border: 5px solid #b36e15; display: inline-block;}
+header li.navi {border: 5px solid #1061ad; display: inline-block;}
