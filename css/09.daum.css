@@ -1,0 +1,8 @@
+html, body {font-family: 'AppleSDGothicNeo-Regular', 'Malgun Gothic', '맑은 고딕', 'dotum', '돋움', sans-serif;}
+
+.wrapper {max-width: 1100px; margin: 0 auto; padding: 0 50px;}
+
+.header-wrapper {border-bottom: 1px solid #eee;}
+	.top-wrapper {font-size: 12px; color: #888;}
+		.top-wrapper .start-page {float: left; padding: 6px 0; }
+		.top-wrapper .close-3days {float: right; padding: 6px 0;}
