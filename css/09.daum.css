@@ -14,15 +14,19 @@ html, body {font-family: 'AppleSDGothicNeo-Regular', 'Malgun Gothic', '맑은 �
 		.search-wrap {float: left; width: 50%; min-width: 400px;}
 			.search-wrap form {border: 1px solid #478dff;}
 				.search-wrap input {width: calc(100% - 114px); font-size: 18px; padding-left: 12px; outline: none;} 
-				.search-wrap form i {color: #478dff; font-size: 18px; padding: 16px;}
+				.search-wrap form i {color: #478dff; font-size: 18px; padding: 16px; cursor: pointer;}
 			.search-wrap .favor-wrap {font-size: 13px; color: #555; padding: 8px 0;}
 				.search-wrap .favor-wrap .list-wrap {float: left;}
 				.search-wrap .favor-wrap .list-wrap li {display: inline-block; margin: 0 4px; letter-spacing: -2px;}
 					.search-wrap .favor-wrap .list-wrap li a:hover {text-decoration: underline;}
 				.search-wrap .favor-wrap .btn-wrap {float: right;}
-					.search-wrap .favor-wrap .btn-wrap i {border: 1px solid #ccc; color: #ccc; float: left;}
+					.search-wrap .favor-wrap .btn-wrap i {border: 1px solid #ccc; color: #ccc; float: left; cursor: pointer;}
 					.search-wrap .favor-wrap .btn-wrap i.bt-prev {padding: 1px 5px 1px 4px;}
 					.search-wrap .favor-wrap .btn-wrap i.bt-next {padding: 1px 3.5px 1px 4px; margin-left: -1px;}
 		.banner-wrap {float: right; width: 225px;}
-	.header-wrapper nav {border-bottom: 1px solid #999; border-top: 1px solid #eee;}
+	.header-wrapper nav {border-bottom: 1px solid #999; border-top: 1px solid #eee; font-size: 14px; font-weight: bold;}
+		.navi-wrapper .navi-wrap {float: left;}
+			.navi-wrapper .navi-wrap .navi {float: left; padding: 16px 13px 16px 0; color: #333;}
+		.navi-wrapper .weather-wrap {float: right; padding: 10px 0 6px 0; color: #222;}
+			.navi-wrapper .weather-wrap .icon {width: 26px; vertical-align: middle;}
 
