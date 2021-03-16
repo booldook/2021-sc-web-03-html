@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Position을 배워보자</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<style>
+		/* 
+		layout: float, position, flex, grid
+		position: [static], absolute, relative, fixed, sticky
+		위치값: top, left, right, bottom
+		*/
+		.wrapper {max-width: 1000px; width: 1000px; margin: auto; border: 10px solid red; position: absolute; top: 100px; left: 100px;}
+		.box {font-size: 30px; text-align: right;}
+		.box1 {width: 300px; height: 300px; background-color: #2064b2; position: absolute; top: 0; left: 0;}
+		.box2 {width: 200px; height: 200px; background-color: #20b238; position: absolute; top: 0; left: 0;}
+		.box3 {width: 100px; height: 100px; background-color: #b2a320; position: absolute; top: 0; left: 0;}
+		.title {font-size: 100px;text-align: center;}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="box box1">1</div>
+		<div class="box box2">2</div>
+		<div class="box box3">3</div>
+	</div>
+	<h1 class="title">포지션-세상의 끝을 찾아</h1>
+</body>
+</html>
