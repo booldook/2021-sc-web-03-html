@@ -9,10 +9,13 @@
 	<style>
 		.wrapper {max-width: 1200px; margin: auto;}
 		.title {text-align: center; padding: 24px; font-size: 150%;}
-		.food {float: left; width: 23%; margin: 1%; overflow: hidden; transition: all 0.35s;}
+		.food {float: left; width: 23%; margin: 1%; overflow: hidden; transition: all 0.35s; position: relative;}
 		.food > img {transition: all 0.35s;}
-		.food:hover {box-shadow: 0 0 20px rgba(0, 0, 0, .7); transform: scale(1.02);}
+		.food:hover {box-shadow: 0 0 20px rgba(0, 0, 0, .7);}
 		.food:hover > img {transform: scale(1.2);}
+
+		.food .desc {background-color: rgba(0, 0, 0, .7); color: rgba(255, 255, 255, 0.7); font-size: 26px; padding: 30px; 
+			position: absolute; width: 100%; bottom: 0; left: 0; transition: all 0.35s;}
 	</style>
 </head>
 <body>
@@ -20,14 +23,38 @@
 		<h1 class="title">점심메뉴를 골라보자</h1>
 		<ul class="food-wrapper clearfix">
 			<!-- li.food*7>img.img -->
-			<li class="food"><img src="../img/cherries.jpg" class="img"></li>
-			<li class="food"><img src="../img/croissant.jpg" class="img"></li>
-			<li class="food"><img src="../img/wine.jpg" class="img"></li>
-			<li class="food"><img src="../img/steak.jpg" class="img"></li>
-			<li class="food"><img src="../img/popsicle.jpg" class="img"></li>
-			<li class="food"><img src="../img/sandwich.jpg" class="img"></li>
-			<li class="food"><img src="../img/salmon.jpg" class="img"></li>
-			<li class="food"><img src="../img/croissant.jpg" class="img"></li>
+			<li class="food">
+				<img src="../img/cherries.jpg" class="img">
+				<div class="desc">Cherry</div>
+			</li>
+			<li class="food">
+				<img src="../img/croissant.jpg" class="img">
+				<div class="desc">Croissant</div>
+			</li>
+			<li class="food">
+				<img src="../img/wine.jpg" class="img">
+				<div class="desc">Wine</div>
+			</li>
+			<li class="food">
+				<img src="../img/steak.jpg" class="img">
+				<div class="desc">Steak</div>
+			</li>
+			<li class="food">
+				<img src="../img/popsicle.jpg" class="img">
+				<div class="desc">Popsicle</div>
+			</li>
+			<li class="food">
+				<img src="../img/sandwich.jpg" class="img">
+				<div class="desc">Sandwich</div>
+			</li>
+			<li class="food">
+				<img src="../img/salmon.jpg" class="img">
+				<div class="desc">Salmon</div>
+			</li>
+			<li class="food">
+				<img src="../img/croissant.jpg" class="img">
+				<div class="desc">Croissant</div>
+			</li>
 		</ul>
 	</div>
 </body>
