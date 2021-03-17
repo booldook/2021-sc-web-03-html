@@ -15,6 +15,7 @@
 		- transform		: 변형 				- 형태를 바꾼다(이동-translate, 회전-rotate, 크기-scale, 투시-perspective)
 		- translate		: 이동/번역 	- 옮기다
 		 */
+		 body {height: 3000px;}
 		.wrapper {max-width: 1200px; margin: auto;}
 		.box {width: 200px; height: 200px; background-color: lightseagreen; border: 10px solid midnightblue; margin: 100px;}
 		
@@ -28,12 +29,32 @@
 		}
 		.box1:hover {width: 600px; opacity: 0.5; background-color: orangered; border-width: 50px;}
 
-		.box2 {transition: all 1s;}
+		.box2 {transition: all 1s; /* transform-origin: right bottom; */}
 		.box2:hover {
 			/* transform: translateX(100px) */
 			/* transform: translateY(100px) */
 			/* transform: translate(100px, 10px) */
-			transform: rotate(1800deg);
+			/* transform: rotate(360deg); */
+			/* transform: rotate3d(1, 0, 1, 45deg) */
+			/* transform: scale(1.5); */
+			/* transform: scaleX(1.5); */
+			/* transform: scaleY(1.5); */
+			/* transform: scale3d(x, y, z); */
+			transform: rotate(45deg);
+		}
+
+		/* 시야 */
+		.perspective {
+			display: inline-block;
+			border: 10px solid blue;
+			transform-style: preserve-3d;
+			perspective: 400px;
+		}
+		.box3 {
+			transition: all 1s;
+		}
+		.box3:hover {
+			transform: rotateX(720deg);
 		}
 	</style>
 </head>
@@ -41,7 +62,9 @@
 	<div class="wrapper">
 		<div class="box box1"></div>
 		<div class="box box2"></div>
-		<div class="box box3"></div>
+		<div class="perspective">
+			<div class="box box3"></div>
+		</div>
 	</div>
 </body>
 </html>
