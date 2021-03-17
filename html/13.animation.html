@@ -7,10 +7,28 @@
 	<title>Animation을 응용해 보자</title>
 	<link rel="stylesheet" href="../css/base.css">
 	<style>
-
+		.wrapper {max-width: 1200px; margin: auto;}
+		.title {text-align: center; padding: 24px; font-size: 150%;}
+		.food {float: left; width: 23%; margin: 1%; overflow: hidden; transition: all 0.35s;}
+		.food > img {transition: all 0.35s;}
+		.food:hover {box-shadow: 0 0 20px rgba(0, 0, 0, .7); transform: scale(1.02);}
+		.food:hover > img {transform: scale(1.2);}
 	</style>
 </head>
 <body>
-	
+	<div class="wrapper">
+		<h1 class="title">점심메뉴를 골라보자</h1>
+		<ul class="food-wrapper clearfix">
+			<!-- li.food*7>img.img -->
+			<li class="food"><img src="../img/cherries.jpg" class="img"></li>
+			<li class="food"><img src="../img/croissant.jpg" class="img"></li>
+			<li class="food"><img src="../img/wine.jpg" class="img"></li>
+			<li class="food"><img src="../img/steak.jpg" class="img"></li>
+			<li class="food"><img src="../img/popsicle.jpg" class="img"></li>
+			<li class="food"><img src="../img/sandwich.jpg" class="img"></li>
+			<li class="food"><img src="../img/salmon.jpg" class="img"></li>
+			<li class="food"><img src="../img/croissant.jpg" class="img"></li>
+		</ul>
+	</div>
 </body>
 </html>
