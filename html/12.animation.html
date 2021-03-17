@@ -7,10 +7,34 @@
 	<title>Animation을 배워보자</title>
 	<link rel="stylesheet" href="../css/base.css">
 	<style>
+		/* 
+		transition-timing-function: [ease], ease-in, ease-out, ease-in-out, linear
+
+		헤깔리지 말자 trans 3형제
+		- transition	: 변화 				- animation속성을 준다
+		- transform		: 변형 				- 형태를 바꾼다(이동-translate, 회전-rotate, 크기-scale, 투시-perspective)
+		- translate		: 이동/번역 	- 옮기다
+		 */
 		.wrapper {max-width: 1200px; margin: auto;}
-		.box {width: 200px; height: 200px; background-color: lightseagreen; border: 10px solid midnightblue; margin: 20px;}
-		.box1 {transition: width 1s; /* transition-delay: 1s; */}
-		.box1:hover {width: 600px;}
+		.box {width: 200px; height: 200px; background-color: lightseagreen; border: 10px solid midnightblue; margin: 100px;}
+		
+		.box1 {
+			/* transition-property: width, opacity, background-color, border-width;  */
+			/* transition-duration: 1s, 1s, 1s, 1s; */
+			/* transition-timing-function: ease-in-out  */
+			/* transition-delay: 1s; */
+			/* transition: ease-in-out width 0.5s 2s; */
+			transition: ease-in-out all 1s;
+		}
+		.box1:hover {width: 600px; opacity: 0.5; background-color: orangered; border-width: 50px;}
+
+		.box2 {transition: all 1s;}
+		.box2:hover {
+			/* transform: translateX(100px) */
+			/* transform: translateY(100px) */
+			/* transform: translate(100px, 10px) */
+			transform: rotate(1800deg);
+		}
 	</style>
 </head>
 <body>
