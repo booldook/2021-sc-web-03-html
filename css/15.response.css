@@ -1,0 +1,27 @@
+/* Smart Phone (0 ~ 575px)*/
+.wrapper {max-width: 1260px; margin: auto; padding: 0 2%; border: 1px solid red;}
+
+.prd-wrapper .prd {float: left; width: 98%; margin: 1%;}
+.prd-wrapper .prd .title {padding: 24px; font-size: 22px; background-color: #121522; color: #f8f8f8;}
+
+@media (min-width: 576px) {
+	/* 스마트폰 가로 576 ~ 767 */
+	.prd-wrapper .prd {width: 48%;}
+}
+
+@media (min-width: 768px) {
+	/* 태블릿 세로 768 ~ 991px */
+}
+
+@media (min-width: 992px) {
+	/* 태블릿 가로 992 ~ 1199px */
+	.prd-wrapper .prd {width: 23%;}
+}
+
+@media (min-width: 1200px) {
+	/* Laptop 1200px ~ */
+}
+
+@media (min-width: 1400px) {
+	/* PC 1200px ~ */
+}

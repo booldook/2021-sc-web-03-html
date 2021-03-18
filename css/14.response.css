@@ -5,6 +5,10 @@
 .prd-wrapper .prd .title {padding: 24px; font-size: 22px; background-color: #121522; color: #f8f8f8;}
 
 /* media query */
+@media (max-width: 1400px) {
+	/* 노트북 */
+}
+
 @media (max-width: 1200px) {
 	/* 작은 노트북 */
 }
@@ -18,7 +22,7 @@
 	.prd-wrapper .prd {width: 48%;}
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
 	/* 스마트폰 세로 */
 	.prd-wrapper .prd {width: 96%; margin: 2%;}
 }
