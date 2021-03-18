@@ -1,5 +1,24 @@
-.wrapper {width: 1262px; margin: auto; padding: 0 30px; border: 1px solid red;}
+/* PC */
+.wrapper {max-width: 1260px; margin: auto; padding: 0 1%; border: 1px solid red;}
 
-.prd-wrapper {width: 1200px}
-.prd-wrapper .prd {float: left; width: 260px; margin: 20px;}
+.prd-wrapper .prd {float: left; width: 23%; margin: 1%;}
 .prd-wrapper .prd .title {padding: 24px; font-size: 22px; background-color: #121522; color: #f8f8f8;}
+
+/* media query */
+@media (max-width: 1200px) {
+	/* 작은 노트북 */
+}
+
+@media (max-width: 992px) {
+	/* 큰 패드, 작은패드 가로 */
+}
+
+@media (max-width: 768px) {
+	/* 큰 스마트폰 가로, 패드 세로 */
+	.prd-wrapper .prd {width: 48%;}
+}
+
+@media (max-width: 576px) {
+	/* 스마트폰 세로 */
+	.prd-wrapper .prd {width: 96%; margin: 2%;}
+}
