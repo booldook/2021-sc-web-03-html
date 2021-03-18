@@ -1,0 +1,5 @@
+.wrapper {width: 1262px; margin: auto; padding: 0 30px; border: 1px solid red;}
+
+.prd-wrapper {width: 1200px}
+.prd-wrapper .prd {float: left; width: 260px; margin: 20px;}
+.prd-wrapper .prd .title {padding: 24px; font-size: 22px; background-color: #121522; color: #f8f8f8;}
