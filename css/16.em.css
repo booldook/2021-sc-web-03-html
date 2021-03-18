@@ -1,18 +1,40 @@
+/*
+rem, em: font-size, margin, padding
+16px 기준
+0.125 -> 2px
+0.25 	-> 4px
+0.325 -> 6px
+0.5 	-> 8px
+0.625 -> 10px
+0.75 	-> 12px
+0.875 -> 14px
+1 		-> 16px
+1.125 -> 18px
+1.25	-> 20px
+*/
+
+
 html, body {font-size: 32px;}
 
-.wrapper {max-width: 1200px; margin: auto; padding: 32px;}
+.wrapper {max-width: 1200px; margin: auto; padding: 1rem;}
+.prd-wrapper {font-size: 3rem;}
+.prd {font-size: 1.5rem; padding: 1.5rem; background-color: black; color: white;}
+.prd:not(:last-child) {border-bottom: 1px solid yellow;}
 
-.prd {font-size: 1rem; padding: 1.5rem; background-color: black; color: white;}
-
-
-.prd:last-child {border-top: 1px solid yellow;}
+.prd-wrapper2 {font-size: 1.5rem;}
+.prd2 {font-size: 1.5em; padding: 1em; background-color: black; color: white;}
+.prd2:not(:last-child) {border-bottom: 1px solid yellow;}
 
 @media (min-width: 576px) {
 	html, body {font-size: 28px;}
 }
 
+@media (min-width: 768px) {
+	html, body {font-size: 24px;}
+}
+
 @media (min-width: 992px) {
-	html, body {font-size: 22px;}
+	html, body {font-size: 20px;}
 }
 
 @media (min-width: 1200px) {
